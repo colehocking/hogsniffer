@@ -1,6 +1,6 @@
-#hogsniffer
+# hogsniffer
 
-Use Trufflehog to scan repositories
+Use Trufflehog to scan repositories from Docker container
 
 ## Description
 
@@ -12,9 +12,10 @@ ensure that the correct destinations are overwritten, such as the appropriate gi
 
 ## Architecture
 
-An Ubunutu Docker container is created to run the scanning script, installing the appropriate dependencies, and contained in an ECR
+An Ubunutu Docker container is created to run the scanning script, installing the appropriate dependencies
 
 ## Dependencies
+
 - trufflehog
 - jq
 - awscli
